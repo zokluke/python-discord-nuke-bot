@@ -34,7 +34,7 @@ async def kickall(ctx):
         print(e)
       
 @client.command()
-async def delchannels(ctx)
+async def delchannels(ctx):
   for c in ctx.guild.channels:
     await c.delete()
 
